@@ -12,7 +12,7 @@ build:
     - pkg-config
   jobs:
     pre_build:
-      # - pip install --upgrade pip setuptools wheel
+      - pip install --upgrade pip setuptools wheel
       # - pip install --ignore-installed docutils==0.17.1
       # - pip install -r docs/requirements.txt
       # - pip install torch torchvision torchaudio
