@@ -21,7 +21,7 @@ build:
       - conda install -y spacy
       - python -m spacy download fr_core_news_lg
       - python -m spacy download en_core_web_lg
-      - conda install -c dglteam/label/th24_cpu dgl
+      - conda install -y -c dglteam/label/th24_cpu dgl
       # - conda install -c dglteam dgl
 
 
