@@ -18,10 +18,10 @@ build:
       # - pip install torch torchvision torchaudio
       #- pip install torch==1.10.0+cpu torchvision==0.11.1+cpu -f https://download.pytorch.org/whl/cpu/torch_stable.html
       # - pip install -e . --no-deps
-      - conda install spacy
-      # - python -m spacy download fr_core_news_lg
-      # - python -m spacy download en_core_web_lg
-      # - conda install -c dglteam/label/th24_cpu dgl
+      - conda install -y spacy
+      - python -m spacy download fr_core_news_lg
+      - python -m spacy download en_core_web_lg
+      - conda install -c dglteam/label/th24_cpu dgl
       # - conda install -c dglteam dgl
 
 
